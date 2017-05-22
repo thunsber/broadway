@@ -3,19 +3,20 @@
   <head>
     <meta charset="utf-8">
     <title>Broadway Designs</title>
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
   </head>
   <body>
-    <div class="main">
+    <div class="main" id="main">
       <!--background image for .main-->
       <h1>Broadway Design</h1>
-      <a href="#"><p>Home</p></a>
-      <a href="#"><p>Process</p></a>
-      <a href="#"><p>Work</p></a>
-      <a href="#"><p>Team</p></a>
-      <a href="#"><p>Contact</p></a>
+        <a href="#main"><p>Home</p></a>
+        <a href="#process"><p>Process</p></a>
+        <a href="#work"><p>Work</p></a>
+        <a href="#team"><p>Team</p></a>
+        <a href="#contact"><p>Contact</p></a>
     </div>
 
-    <div class="supportOne">
+    <div class="supportOne" id="process">
       <h2>Our Process</h2>
       <img src="./resources/identify.svg" alt="curly arrow">
       <h3>Identify</h3>
@@ -23,7 +24,7 @@
       <img src="./resources/understand.svg" alt="circular arrows">
       <h3>Understand</h3>
       <p>We study our projects inside and out.</p>
-      <img src="./resouces/execute.svg" alt="block arrow">
+      <img src="./resources/execute.svg" alt="block arrow">
       <h3>Execute</h3>
       <p>We put everything we have into our work.</p>
     </div>
@@ -34,40 +35,28 @@
     </div>
 
     <div class="supportTwo">
-     <h3>Portfolio</h3>
+     <h3 id="work">Portfolio</h3>
      <p>Coming Soon</p>
-     <h3>Team</h3>
+     <h3 id="team">Team</h3>
      <p>We're Hiring!</p>
-     <h3>Contact</h3>
+     <h3 id="contact">Contact</h3>
      <p>Phone: (555)-555-5555</p>
      <p>E-mail: test@example.com</p>
      <p>Twitter: @test</p>
     </div>
 
     <div class="footDiv">
-       <footer>
+      <footer>
          <!--dimgray background color for .footDiv-->
-         <p><span>&copy; Broadway 2017</span>
-           <a href="#">Home</a>
-           <a href="#">About</a>
-           <a href="#">Work</a>
-           <a href="#">Team</a>
-           <a href="#">Contact</a>
+        <p><span>&copy; Broadway 2017</span>
+             <a href="#main">Home</a>
+             <a href="#process">About</a>
+             <a href="#work">Work</a>
+             <a href="#team">Team</a>
+             <a href="#contact">Contact</a>
         </p>
        </footer>
      </div>
-
-
-
-
-
-
-
-
-
-
-
-
 
   </body>
 </html>
